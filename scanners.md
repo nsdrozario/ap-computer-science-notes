@@ -53,7 +53,7 @@ n2 = s.nextInt();
 s7 = s.nextLine();
 s8 = s.nextLine();
 ```
-Not only is this tedious, but look how we need to know **exactly** where the numbers are. If you don't do this in the right order, some of the numbers will be treated as strings. We won't always know where the numbers are! If we expect a string to be at some position on the line of "barcodes", but it's actually an int, we can't just backtrack and correct ourselves; its too late.
+Not only is this tedious, but look how we need to know **exactly** where the numbers are. If you don't do this in the right order, some of the numbers will be treated as strings. We won't always know where the numbers are! If we expect a string to be at some position on the line of "barcodes", but it's actually an int, we can't just backtrack and correct ourselves; it's too late.
 
 But we do have a solution: *use multiple scanners*.
 
