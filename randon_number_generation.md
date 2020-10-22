@@ -2,7 +2,7 @@
 
 In class and in the textbook, you have encountered the `Random` class. This is a perfectly fine thing to use. It is much more elegant than using `Math.random()` 99% of the time. However, College Board does not place nearly as much emphasis on this as they do on `Math.random()`.
 
-**Key differences between `Math.random()` and the `Random` class:**
+## Key differences between `Math.random()` and the `Random` class:
 `Math.random()` is a *static function* - this means we don't have to create a class to use this function. For example:
 ```java
 double random = Math.random();
